@@ -1,10 +1,10 @@
-import { Avatar } from '@material-ui/core'
+import React from 'react';
+import Avatar from '@material-ui/core/Avatar';
+import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import MoreVert  from '@material-ui/icons/MoreVert'
 import ChatIcon from '@material-ui/icons/Chat';
-import DonutLarge from '@material-ui/icons/Chat';
-import React from 'react'
+import './Sidebar.css';
 
-import './Sidebar.css'
 
 function Sidebar() {
     return (
@@ -12,9 +12,10 @@ function Sidebar() {
            <div className="sidebar__header">
                 <Avatar />   
                 <div className="sidebar__headerRight">
-                <DonutLarge />
+                <DonutLargeIcon />
                 <ChatIcon />
                 <MoreVert />
+            
             
                 </div>     
            </div>
