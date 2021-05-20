@@ -44,7 +44,14 @@
     justify-content: space-between;
     min-width: 10vw;
     }
+
 .sidebar__headerRight > .MuiSvgIcon-root {
     margin-right: 20vw;
     font-size: 24px !important
+    }
+
+.sidebar__chats {
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
     }
