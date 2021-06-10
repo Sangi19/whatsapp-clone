@@ -1,7 +1,7 @@
 import { Avatar } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import './SidebarChat.css';
-import db from firebase;
+import db from "./firebase";
 
 function SidebarChat({ id, name, addNewChat}) {
     const [seed, setseed] = useState('');
@@ -15,7 +15,9 @@ function SidebarChat({ id, name, addNewChat}) {
 
         if (roomName) {
             //do some  database stuff
-            
+            db.collection("rooms").add({
+                name : roomName,
+            });
         }
     };
 
@@ -29,7 +31,7 @@ function SidebarChat({ id, name, addNewChat}) {
         </div>
     ) : (
        <div className="sidebarChat" 
-        onclick= {createChat} >
+        onClick= {createChat} >
         <h2> Add New Chat</h2>
        </div>
     );
