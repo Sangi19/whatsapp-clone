@@ -9,9 +9,9 @@ function App() {
     <div className="app">
       <div className="app__body">
       <Router>
-        <Switch>
           <Sidebar />
-            <Route path="/rooms/:roomId">
+            <Switch>
+            <Route path="/rooms/:roomId" >
               <Chat />
             </Route>
             <Route path="/">
