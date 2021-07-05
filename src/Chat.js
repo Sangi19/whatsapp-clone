@@ -60,7 +60,7 @@ function Chat() {
 
                 <div className='chat__headerInfo'>
                 <h3>{roomName}</h3>
-                <p>Last seen at{""} 
+                <p>Last seen at{" "} 
                  {new Date (
                      messages[messages.length-1]?.
                      timestamp?.toDate()
