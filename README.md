@@ -44,9 +44,15 @@ This a JavaScript React clone Project which duplicates the popular application o
 
 ### React - Load Posts at real-time. Instead of refreshing the whole page, particular components will be altered.
 
-### Firebase - handles the background job to store and retrieve the messages and chat rooms.
+### Firebase firestore Realtime db - handles the background job to store and retrieve the messages and chat rooms.
 
 ### Google Auth - Google authentication helps us to login using Google Mail ids (GMAIL)
+
+### Material UI - It is used for the Icons for whatsapp application.
+
+### React Router -  It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL
+
+### Deploy using Firebase - Deployed the app using Firebase
 
 ## Live Version
 
